@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo RA Hover</title>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f5f5f5;
+    }
+
+    .logo {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease, fill 0.3s ease;
+    }
+
+    .logo g {
+      fill: #e63946; /* warna default */
+      transition: fill 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.1);
+    }
+
+    .logo:hover g {
+      fill: #4539e6; /* warna saat hover (merah) */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Inline SVG -->
+  <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="RA monogram">
+    <g fill="#000000" fill-rule="evenodd">
+      <!-- Stylized R -->
+      <path d="M96 64c0-8.8 7.2-16 16-16h88c46 0 88 38 88 84 0 28-13 52-34 68 25 8 42 26 42 52 0 36-30 68-72 68H112c-8.8 0-16-7.2-16-16V64zM192 104h-48v96h56c24 0 40-18 40-40s-16-40-48-40zM152 304h56c20 0 36-16 36-36 0-16-10-28-28-32 20-10 32-30 32-56 0-36-32-60-68-60H128v224h24z"/>
+      <!-- Stylized A -->
+      <path d="M320 448h-28l-46-128h-92l-46 128h-28l110-304h54l110 304zM280 208l-28-82-28 82h56z"/>
+    </g>
+  </svg>
+
+</body>
+</html>
