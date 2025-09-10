@@ -55,6 +55,6 @@ Social Media:
 - [Telegram](https://t.me/radityaabi)
 - [Instagram](https://instagram.com/radityaabi08)
 
-# Screenshoots
+# Screenshots
 
 ![Home](images/web.png)
