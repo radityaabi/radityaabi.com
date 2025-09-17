@@ -2,39 +2,35 @@
 
 The personal website of Raditya Abiansyah.
 
-Access it here :
+Access it here: [radityaabi.com](https://radityaabi.com)
 
-- [https://radityaabi.com](https://radityaabi.com)
-
-UI design on Figma:
-
-- <https://www.figma.com/design/7rccUbkkxOEOCCrygRwBf6/radityaabi.com>
+UI design on Figma: <https://figma.com/design/7rccUbkkxOEOCCrygRwBf6/radityaabi.com>
 
 The goal is to be simple, clean and easy navigate. It showcases my skills, projects and contact.
 
-Pages :
+Pages:
 
 - Home
 - Projects
 - Contact
 
-# Inspirations
+## Inspirations
 
 - [Britanny Chiang](https://brittanychiang.com/)
 - [Henhen Muldani](https://henhenmuldani.com/)
 
-# Home
+## Home
 
-Skills :
+Skills:
 
-- Javascript
+- JavaScript
 - Python
 - PHP
 - Node.js
 - Markdown
 - VS Code / Cursor
 - Git
-- Github
+- GitHub
 - HTML
 - CSS
 - MySQL
@@ -42,19 +38,19 @@ Skills :
 - Dechiper
 - UNICOM Dimension
 
-# Projects
+## Projects
 
 Details for the entire projects with Filter Feature.
 
-# Contact
+## Contact
 
 Social Media:
 
-- [LinkedIn](https://www.linkedin.com/in/radityaabi/)
+- [LinkedIn](https://linkedin.com/in/radityaabi)
 - [GitHub](https://github.com/radityaabi)
 - [Telegram](https://t.me/radityaabi)
 - [Instagram](https://instagram.com/radityaabi08)
 
-# Screenshots
+## Screenshots
 
 ![Home](images/web.png)
