@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Raditya Abiansyah</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="progress" id="progressBar" aria-hidden="true"></div>
+
+    <!-- Mobile Header (only visible on mobile) -->
+    <div class="mobile-header">
+      <h1>Home</h1>
+      <button
+        class="mobile-menu-btn"
+        id="mobileMenuBtn"
+        aria-label="Toggle navigation menu"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Overlay for mobile menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <div
+      class="app"
+      role="application"
+      aria-label="Chalkboard portfolio layout"
+    >
+      <!-- SIDEBAR -->
+      <aside class="sidebar" aria-label="Main navigation" id="sidebar">
+        <div class="brand">
+          <div class="logo">
+            <!-- Inline SVG -->
+            <a href="index.html" class="ra-link" aria-label="Go to Home">
+              <!-- Inline SVG -->
+              <svg
+                class="ra-logo"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                role="img"
+                aria-label="RA monogram"
+              >
+                <g fill="currentColor" fill-rule="evenodd">
+                  <!-- Stylized R -->
+                  <path
+                    d="M96 64c0-8.8 7.2-16 16-16h88c46 0 88 38 88 84 0 28-13 52-34 68 
+                        25 8 42 26 42 52 0 36-30 68-72 68H112c-8.8 0-16-7.2-16-16V64z
+                        M192 104h-48v96h56c24 0 40-18 40-40s-16-40-48-40z
+                        M152 304h56c20 0 36-16 36-36 0-16-10-28-28-32 
+                        20-10 32-30 32-56 0-36-32-60-68-60H128v224h24z"
+                  />
+                  <!-- Stylized A -->
+                  <path
+                    d="M320 448h-28l-46-128h-92l-46 128h-28l110-304h54l110 304z
+                        M280 208l-28-82-28 82h56z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+          <a href="index.html" class="brand-name-link">
+            <h1>Raditya Abiansyah</h1>
+            <p>Fullstack Web Developer &amp; Survey Scripter</p>
+          </a>
+        </div>
+
+        <nav class="sidebar-nav" role="navigation" aria-label="Primary">
+          <a class="nav-link active" href="index.html">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a class="nav-link" href="project/index.html">
+            <i class="fas fa-project-diagram"></i> Projects
+          </a>
+          <a class="nav-link" href="contact/index.html">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+        </nav>
+
+        <div class="sidebar-footer" aria-hidden="false">
+          <div class="socials" role="list">
+            <a
+              href="https://github.com/radityaabi"
+              aria-label="GitHub"
+              title="GitHub"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://linkedin.com/in/radityaabi"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://t.me/radityaabi"
+              aria-label="Telegram"
+              title="Telegram"
+              target="_blank"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a
+              href="https://instagram.com/radityaabi08"
+              aria-label="Instagram"
+              title="Instagram"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <div style="font-size: 12px; color: var(--muted); margin-top: 10px">
+            © 2025 Raditya Abiansyah
+          </div>
+        </div>
+      </aside>
+
+      <!-- MAIN -->
+      <main class="main" id="mainContent">
+        <!-- HERO (About) -->
+        <section
+          id="hero"
+          class="section"
+          tabindex="-1"
+          aria-labelledby="heroTitle"
+        >
+          <div class="panel hero" role="region" aria-label="Introduction">
+            <div class="avatar" aria-hidden="true">
+              <img src="images/radit.jpg" alt="Avatar Raditya Abiansyah" />
+            </div>
+            <div>
+              <h2 id="heroTitle">Hi — I'm Raditya Abiansyah</h2>
+              <p
+                class="hero-sub"
+                id="typedSubtitle"
+                aria-live="polite"
+                style="color: var(--muted)"
+              ></p>
+              <p style="margin-top: 12px; color: var(--muted)">
+                I create digital experiences that are functional, beautiful, and
+                user-friendly
+              </p>
+              <a class="cta" href="#projects">See projects →</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section" tabindex="-1">
+          <h3 class="section-heading">What I Do</h3>
+          <div class="panel features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="feature-title">Web Development</h3>
+              <p>
+                Building responsive and modern web applications using the latest
+                technologies.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3 class="feature-title">Survey Scripting</h3>
+              <p>
+                Creating and optimizing survey solutions for market research
+                with precision.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Career Journey -->
+        <section id="career" class="section" tabindex="-1">
+          <h3 class="section-heading">Career Journey</h3>
+          <div class="panel">
+            <!-- Career Item 1 -->
+            <div class="career-card">
+              <div class="company-logo">
+                <img src="/images/niq.png" alt="NIQ Indonesia Logo" />
+              </div>
+              <div class="career-content">
+                <div class="career-header">
+                  <h4>Survey Programmer</h4>
+                  <a
+                    href="https://nielseniq.com/global/en/"
+                    target="_blank"
+                    class="company-link"
+                  >
+                    <span>NIQ Indonesia</span>
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <div class="career-period">2018 - Present</div>
+                </div>
+                <ul class="career-responsibilities">
+                  <li>
+                    Developing complex survey solutions for market research
+                  </li>
+                  <li>Implementing advanced scripting techniques</li>
+                  <li>Using modern technologies to optimize data collection</li>
+                  <li>
+                    Collaborating with research teams to design effective
+                    surveys
+                  </li>
+                </ul>
+                <div class="career-tech">
+                  <span class="tech-tag">SurveyToGo</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Decipher</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">UNICOM Dimension</span>
+                  <span class="tech-tag">VBScript</span>
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section id="projects" class="section" tabindex="-1">
+          <h3 class="section-heading">Featured Projects</h3>
+          <div class="panel">
+            <div class="projects-grid" role="list">
+              <!-- Project Card 1 -->
+              <article
+                class="project"
+                role="listitem"
+                aria-label="Survey Platform"
+              >
+                <div class="project-content">
+                  <div class="project-thumb">
+                    <img
+                      src="/images/projects/surveys-logo.jpg"
+                      alt="survey-scripting"
+                    />
+                  </div>
+                  <h4>Survey Scripting Services</h4>
+                  <div
+                    style="
+                      color: var(--muted);
+                      font-size: 14px;
+                      margin-bottom: 12px;
+                    "
+                  >
+                    2018 • SurveyToGo, Dimension, Dechiper
+                  </div>
+                  <p>
+                    Survey Scripting Services for Market Research with advanced
+                    scripting capabilities.
+                  </p>
+                </div>
+                <div class="project-actions">
+                  <a href="/project/survey-scripting.html" class="nav-link">
+                    View Project
+                  </a>
+                </div>
+              </article>
+
+              <!-- Project Card 2 -->
+              <article
+                class="project"
+                role="listitem"
+                aria-label="Survey Platform"
+              >
+                <div class="project-content">
+                  <div class="project-thumb">
+                    <img
+                      src="/images/projects/digsti-tools.jpg"
+                      alt="survey-scripting"
+                    />
+                  </div>
+                  <h4>Digital Stimulus Tools</h4>
+                  <div
+                    style="
+                      color: var(--muted);
+                      font-size: 14px;
+                      margin-bottom: 12px;
+                    "
+                  >
+                    2023 • HTML, CSS, JavaScript
+                  </div>
+                  <p>
+                    An all-in-one solution to automatically edit stimulus into
+                    proportional shapes for your survey requirements.
+                  </p>
+                </div>
+                <div class="project-actions">
+                  <a href="/project/digsti-tools.html" class="nav-link">
+                    View Project
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="text-center" style="margin-top: 30px">
+            <a href="/project/index.html" class="nav-link">
+              <i class="fas fa-arrow-right"></i> View All Projects
+            </a>
+          </div>
+        </section>
+
+        <!-- Tech Stack Preview -->
+        <section id="tech" class="section" tabindex="-1">
+          <h3 class="section-heading">Tech Stack</h3>
+          <div class="panel">
+            <div class="tech-stack">
+              <div class="tech-item">JavaScript</div>
+              <div class="tech-item">React</div>
+              <div class="tech-item">HTML5</div>
+              <div class="tech-item">CSS3</div>
+              <div class="tech-item">Node.js</div>
+              <div class="tech-item">Python</div>
+              <div class="tech-item">PHP</div>
+              <div class="tech-item">MySQL</div>
+              <div class="tech-item">REST API</div>
+              <div class="tech-item">Git</div>
+              <div class="tech-item">SurveyToGo</div>
+              <div class="tech-item">Decipher</div>
+              <div class="tech-item">UNICOM Dimension</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="contact" class="section" tabindex="-1">
+          <h3 class="section-heading">Let's Work Together</h3>
+          <div class="panel text-center">
+            <p style="color: var(--muted)">
+              I'm always interested in new opportunities and challenges
+            </p>
+            <a href="/contact/index.html" class="contact-cta">
+              <i class="fas fa-paper-plane"></i> Get In Touch
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

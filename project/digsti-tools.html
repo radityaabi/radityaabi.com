@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIGITAL STIMULUS TOOLS - Project Detail</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.svg" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- Mobile Header (only visible on mobile) -->
+    <div class="mobile-header">
+      <h1>Project Detail</h1>
+      <button
+        class="mobile-menu-btn"
+        id="mobileMenuBtn"
+        aria-label="Toggle navigation menu"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Overlay for mobile menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <div class="app">
+      <!-- SIDEBAR -->
+      <aside class="sidebar" aria-label="Main navigation" id="sidebar">
+        <div class="brand">
+          <div class="logo">
+            <!-- Inline SVG -->
+            <a href="index.html" class="ra-link" aria-label="Go to Home">
+              <!-- Inline SVG -->
+              <svg
+                class="ra-logo"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                role="img"
+                aria-label="RA monogram"
+              >
+                <g fill="currentColor" fill-rule="evenodd">
+                  <!-- Stylized R -->
+                  <path
+                    d="M96 64c0-8.8 7.2-16 16-16h88c46 0 88 38 88 84 0 28-13 52-34 68 
+                        25 8 42 26 42 52 0 36-30 68-72 68H112c-8.8 0-16-7.2-16-16V64z
+                        M192 104h-48v96h56c24 0 40-18 40-40s-16-40-48-40z
+                        M152 304h56c20 0 36-16 36-36 0-16-10-28-28-32 
+                        20-10 32-30 32-56 0-36-32-60-68-60H128v224h24z"
+                  />
+                  <!-- Stylized A -->
+                  <path
+                    d="M320 448h-28l-46-128h-92l-46 128h-28l110-304h54l110 304z
+                        M280 208l-28-82-28 82h56z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div>
+            <h1>Raditya Abiansyah</h1>
+            <p>Fullstack Web Developer &amp; Survey Scripter</p>
+          </div>
+        </div>
+
+        <nav class="sidebar-nav" role="navigation" aria-label="Primary">
+          <a class="nav-link" href="/index.html">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a class="nav-link active" href="/project/index.html">
+            <i class="fas fa-project-diagram"></i> Projects
+          </a>
+          <a class="nav-link" href="/contact/index.html">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+        </nav>
+
+        <div class="sidebar-footer" aria-hidden="false">
+          <div class="socials" role="list">
+            <a href="#" aria-label="GitHub" title="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn" title="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Telegram" title="Telegram"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a href="#" aria-label="Instagram" title="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <div style="font-size: 12px; color: var(--muted); margin-top: 10px">
+            © 2025 Raditya Abiansyah
+          </div>
+        </div>
+      </aside>
+
+      <!-- MAIN -->
+      <main class="main">
+        <!-- Breadcrumb -->
+        <section class="section">
+          <a
+            href="/project/index.html"
+            class="nav-link"
+            style="display: inline-flex; margin-bottom: 16px"
+          >
+            <i class="fas fa-arrow-left"></i> Back to Projects
+          </a>
+        </section>
+
+        <!-- Project Hero -->
+        <section class="section project-hero">
+          <div class="project-image">
+            <img
+              src="/images/projects/digsti-tools.jpg"
+              alt="DIARY DASHBOARD Project Screenshot"
+            />
+          </div>
+
+          <div class="project-info">
+            <div class="project-header">
+              <div>
+                <h1 class="m0" style="color: var(--accent)">
+                  DIGITAL STIMULUS TOOLS
+                </h1>
+                <p class="project-meta" style="color: var(--muted)">
+                  2023 • HTML, CSS, JavaScript
+                </p>
+              </div>
+
+              <div class="project-actions">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Project Details -->
+        <section class="section">
+          <h2 class="section-heading">Project Overview</h2>
+          <div class="panel">
+            <p>
+              The <strong>All-in-One Stimulus Editing Tool</strong> is designed
+              to streamline and automate the process of preparing visual
+              materials for surveys. This tool enables users to edit images into
+              proportional shapes automatically, eliminating the need for
+              repetitive manual adjustments.
+            </p>
+            <p>
+              The primary objective is to
+              <strong>reduce time waste</strong> caused by manual editing,
+              especially when handling large volumes of images. While
+              traditional manual editing achieves only
+              <strong>~22 images per hour</strong>, our tool can process
+              <strong>dozens to hundreds of images</strong> in just
+              <strong>1–2 minutes</strong>. This dramatic efficiency boost
+              ensures faster project delivery, reduced costs, and consistent
+              output quality.
+            </p>
+          </div>
+        </section>
+
+        <!-- Achievement/Responsibility -->
+        <section class="section">
+          <h2 class="section-heading">Achievement & Responsibility</h2>
+          <div class="panel">
+            <ul class="achievement-list">
+              <li>
+                <i class="fas fa-bolt"></i>
+                <div class="content">
+                  <h3>Efficiency Improvement</h3>
+                  <p>
+                    Increased editing speed from
+                    <strong>22 images/hour manually</strong> to
+                    <strong>hundreds of images in 1–2 minutes</strong> using the
+                    automated tool.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-cogs"></i>
+                <div class="content">
+                  <h3>Automation & Consistency</h3>
+                  <p>
+                    Eliminated repetitive manual work by automating proportional
+                    shape adjustments, ensuring uniform and high-quality output
+                    across all stimuli.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-clock"></i>
+                <div class="content">
+                  <h3>Time & Cost Saving</h3>
+                  <p>
+                    Reduced project turnaround time significantly, enabling
+                    researchers to focus on analysis and insights rather than
+                    technical editing tasks.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-globe"></i>
+                <div class="content">
+                  <h3>Scalability</h3>
+                  <p>
+                    Successfully applied in projects covering
+                    <strong>5 countries</strong>, proving the tool’s ability to
+                    support large-scale, multi-market survey operations.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Technical Details -->
+        <section class="section">
+          <h2 class="section-heading">Technologies</h2>
+          <div class="panel">
+            <div class="tech-stack-text">
+              <span class="tech-item">HTML5</span>
+              <span class="tech-item">CSS3</span>
+              <span class="tech-item">JavaScript</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
