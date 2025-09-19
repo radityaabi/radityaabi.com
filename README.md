@@ -6,7 +6,7 @@ Access it here: [radityaabi.com](https://radityaabi.com)
 
 UI design on Figma: <https://figma.com/design/7rccUbkkxOEOCCrygRwBf6/radityaabi.com>
 
-The goal is to be simple, clean and easy navigate. It showcases my skills, projects and contact.
+The goal is to be simple, clean and easy navigate. It showcases my journey, projects, skills and contact.
 
 Pages:
 
@@ -20,6 +20,8 @@ Pages:
 - [Henhen Muldani](https://henhenmuldani.com/)
 
 ## Home
+
+There is a career journey, projects handled, and the tech stack mastered.
 
 Skills:
 
@@ -40,7 +42,7 @@ Skills:
 
 ## Projects
 
-Details for the entire projects with Filter Feature.
+Details for the entire project that has been worked on.
 
 ## Contact
 
