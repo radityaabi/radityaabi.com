@@ -83,7 +83,6 @@ p {
 
 .brand {
   display: flex;
-  gap: 8px;
   align-items: center;
 }
 
@@ -125,7 +124,6 @@ p {
 .brand-name-link {
   display: flex;
   flex-direction: column;
-  gap: 2px;
 }
 
 nav.sidebar-nav {
@@ -167,7 +165,6 @@ nav.sidebar-nav {
   color: var(--muted);
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .copyright {
@@ -1030,7 +1027,6 @@ body:after {
     flex-direction: column;
     text-align: center;
     margin-bottom: 25px;
-    gap: 12px;
   }
 
   .brand h1 {
