@@ -373,7 +373,7 @@ nav.sidebar-nav {
 }
 
 .career-card:hover .career-header h4 {
-  color: var(--accent) !important;
+  color: var(--accent);
 }
 
 .company-logo {
