@@ -314,6 +314,10 @@ nav.sidebar-nav {
   font-weight: 700;
 }
 
+.hero-name {
+  color: var(--accent);
+}
+
 .hero p {
   margin: 8px 0 0 0;
   color: var(--muted);
