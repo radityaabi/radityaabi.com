@@ -113,7 +113,6 @@ p {
 .brand h1:hover,
 .brand h1:active {
   color: var(--accent);
-  transform: scale(1.05);
 }
 
 .ra-logo {
