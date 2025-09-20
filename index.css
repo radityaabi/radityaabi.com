@@ -514,10 +514,8 @@ nav.sidebar-nav {
   border-color: rgba(255, 204, 92, 0.12);
 }
 
-.project h5 {
-  margin: 8px 0 6px 0;
-  color: var(--chalk);
-  font-weight: 700;
+.project:hover h4 {
+  color: var(--accent);
 }
 
 .project p {
