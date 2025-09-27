@@ -979,6 +979,15 @@ body:after {
   opacity: 0.6;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  a, button, [role="button"],
+  input[type="button"], input[type="submit"], label,
+  .clickable {
+    -webkit-tap-highlight-color: transparent; /* iOS & Chrome */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* alternatif */
+  }
+}
+
 /* ====== RESPONSIVE DESIGN ====== */
 @media (min-width: 769px) {
   .project-hero {
