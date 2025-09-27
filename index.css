@@ -108,12 +108,19 @@ p {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.ra-link:hover,
+.brand:hover .ra-logo,
+.brand:hover h1,
+.brand:active .ra-logo,
+.brand:active h1 {
+  color: var(--accent);
+}
+
+/* .ra-link:hover,
 .ra-link:active,
 .brand h1:hover,
 .brand h1:active {
   color: var(--accent);
-}
+} */
 
 .ra-logo {
   width: 40px;
