@@ -25,7 +25,7 @@ function initTypingEffect() {
   const el = document.getElementById("typedSubtitle");
   if (!el) return;
 
-  const text = "Fullstack Web Developer & Survey Scripter";
+  const text = "Web Developer & Survey Scripter";
   let i = 0;
 
   function step() {
