@@ -319,12 +319,17 @@ nav.sidebar-nav {
 
 .hero p {
   color: var(--muted);
-  max-width: 60ch;
+  max-width: 75ch;
   font-weight: 400;
 }
 
 .hero-description {
   margin-top: 20px;
+}
+
+.hero-description strong {
+  color: var(--chalk);
+  font-weight: 600;
 }
 
 .hero .cta {
