@@ -196,7 +196,7 @@ nav.sidebar-nav {
 }
 
 /* ====== MOBILE ELEMENTS ====== */
-.mobile-menu-btn {
+.mobile-menu-button {
   display: none;
   background: transparent;
   border: 1px dashed rgba(255, 255, 255, 0.1);
@@ -973,8 +973,12 @@ body:after {
 }
 
 @media (hover: none) and (pointer: coarse) {
-  a, button, [role="button"],
-  input[type="button"], input[type="submit"], label,
+  a,
+  button,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  label,
   .clickable {
     -webkit-tap-highlight-color: transparent;
   }
@@ -1052,7 +1056,7 @@ body:after {
     height: 70px;
   }
 
-  .mobile-menu-btn {
+  .mobile-menu-button {
     display: flex;
   }
 

@@ -79,7 +79,7 @@ function initIntersectionObserver() {
 
 // ====== SCROLL PROGRESS BAR ======
 function initScrollProgress() {
-  const progressBar = document.getElementById("progressBar");
+  const progressBar = document.getElementById("progress-bar");
   if (!progressBar) return;
 
   window.addEventListener(
@@ -96,7 +96,7 @@ function initScrollProgress() {
 
 // ====== MOBILE MENU FUNCTIONALITY ======
 function initMobileMenu() {
-  const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+  const mobileMenuBtn = document.getElementById("mobile-menu-button");
   const sidebar = document.getElementById("sidebar");
   const overlay = document.getElementById("overlay");
   const body = document.body;
