@@ -102,22 +102,15 @@ p {
   font-weight: 400;
 }
 
-.ra-link {
-  display: inline-block;
-  color: white;
-  transition: transform 0.3s ease, color 0.3s ease;
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
-.brand:hover .ra-logo,
 .brand:hover h1,
-.brand:active .ra-logo,
 .brand:active h1 {
   color: var(--accent);
-}
-
-.ra-logo {
-  width: 40px;
-  height: auto;
 }
 
 .brand-name-link {
@@ -973,8 +966,12 @@ body:after {
 }
 
 @media (hover: none) and (pointer: coarse) {
-  a, button, [role="button"],
-  input[type="button"], input[type="submit"], label,
+  a,
+  button,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  label,
   .clickable {
     -webkit-tap-highlight-color: transparent;
   }
